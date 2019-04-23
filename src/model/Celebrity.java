@@ -4,6 +4,7 @@ public class Celebrity
 {
 	private String name;
 	private String clue;
+	private String answer;
 
 	public Celebrity(String name, String clue)
 	{
@@ -19,6 +20,10 @@ public class Celebrity
 	public String getClue()
 	{
 		return clue;
-		
+	}
+	
+	public String getAnswer()
+	{
+		return answer;
 	}
 }
