@@ -129,7 +129,7 @@ public class Controller
 	
 	public String getClue()
 	{
-		if(clueList.sie() >0)
+		if(clueList.size() >0)
 		{
 			return clueList.remove(0);
 		}
